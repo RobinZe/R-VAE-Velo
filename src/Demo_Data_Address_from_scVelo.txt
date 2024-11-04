@@ -1,0 +1,7 @@
+$ human bone marrow CD34+ cells
+https://data.humancellatlas.org/explore/projects/091cf39b-01bc-42e5-9437-f419a66c8a45
+
+$ embryoid body
+https://github.com/KrishnaswamyLab/PHATE/tree/master/data
+
+Reads were demultiplexed using Cell Ranger (v4.0.0). Identification of valid cellular barcodes and unique molecular identifiers (UMIs) was performed using umitools with default parameters for 10x v3 chemistry. Reads were aligned to the hg38 reference genome using STARsolo (v2.7.7a)97. Quantification of spliced and unspliced reads on genes was performed by STARsolo itself on GENCODE v36 (ref. 98). Count matrices were imported into scanpy, and doublet rate was estimated using scrublet99. The count matrix was filtered (min_genes = 200, min_cells = 5, pct_mito < 20) before normalization and log transformation. A KNN graph was built using bbknn. RNA velocity was estimated using scvelo dynamical modeling with latent time regularization.
