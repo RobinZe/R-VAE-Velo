@@ -37,19 +37,20 @@ $$ **v** = \beta u - \gamma s $$
 
 ## Overall model archetecture
 
-![image](https://github.com/RobinZe/R-VAE-Velo/main/figures/overall_archetecture)
+![image](figures/overall_archetecture.png)
 
 
 ## Some results
 
-fitted scatter from Dentate Gyrus dataset
-![image]([https://github.com/RobinZe/R-VAE-Velo/main/figures/scatter.png])
+#### fitted scatter from Dentate Gyrus dataset
+![image](figures/scatter.png)
 
-Generated velocity field in Bone Marrow dataset
+#### Generated velocity field in Bone Marrow dataset
+
 ![image](figures/bonemarrow_velocity.png)
 
-Generated velocity field in Fore Brain dataset, together with pseudotime from Monocle
-![image](https://github.com/RobinZe/R-VAE-Velo/main/figures/forebrain_velocity.png)
+#### Generated velocity field in Fore Brain dataset, together with pseudotime from Monocle
+![image](figures/forebrain_velocity.png)
 
-Use velocity to improve reduced-dimentional visualization
-![image]([figures/veloviz_visualization.png])
+#### Use velocity to improve reduced-dimentional visualization
+![image](figures/veloviz_visualization.png)
