@@ -43,6 +43,7 @@ $$ **v** = \beta u - \gamma s $$
 ## Some results
 
 #### fitted scatter from Dentate Gyrus dataset
+
 ![image](figures/scatter.png)
 
 #### Generated velocity field in Bone Marrow dataset
@@ -50,7 +51,9 @@ $$ **v** = \beta u - \gamma s $$
 ![image](figures/bonemarrow_velocity.png)
 
 #### Generated velocity field in Fore Brain dataset, together with pseudotime from Monocle
+
 ![image](figures/forebrain_velocity.png)
 
 #### Use velocity to improve reduced-dimentional visualization
+
 ![image](figures/veloviz_visualization.png)
